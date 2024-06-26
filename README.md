@@ -29,8 +29,3 @@ Para usar o bot, compartilhe o link do vídeo do YouTube que deseja baixar no ch
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
-## Instalação
-
-Para instalar e usar o bot:
-
-1. Clone o repositório:

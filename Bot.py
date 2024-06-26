@@ -1,3 +1,14 @@
+"""
+Bot para Telegram que baixa vídeos e áudios do YouTube.
+
+Autor: Ricardo
+Contato: ricardodejesusbarbosa4@gmail.com
+GitHub: https://github.com/Ricardo184
+Instagram: https://www.instagram.com/ricardo_tx_
+
+Este código está licenciado sob a Licença MIT.
+"""
+
 from pytube import YouTube
 import telebot
 import re

@@ -15,5 +15,8 @@ COPY . .
 # Defina as variáveis de ambiente, se necessário
 ENV TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
 
+# Exponha a porta necessária para o seu aplicativo
+EXPOSE 8080  # Substitua 8080 pela porta que o seu aplicativo utiliza
+
 # Comando para iniciar o bot
 CMD ["python", "Bot.py"]

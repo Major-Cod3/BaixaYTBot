@@ -7,7 +7,7 @@ WORKDIR /app
 # Copie o arquivo requirements.txt e instale as dependências
 COPY requirements.txt requirements.txt
 RUN python -m venv venv
-RUN . venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt
+RUN . venv/bin/activate && pip install --upgrade pip && pip install pytube && pip install -r requirements.txt
 
 # Copie todo o código do projeto para o contêiner
 COPY . .

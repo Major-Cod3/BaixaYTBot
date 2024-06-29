@@ -1,18 +1,18 @@
-# Instalação do python e criação de um usuário não-root
+# Use uma imagem base do Python
 FROM python:3.9-slim
 
-# Criação de um diretório de trabalho
+# Defina o diretório de trabalho no contêiner
 WORKDIR /app
 
-# Copia o arquivo requirements.txt e instala as dependências
+# Copie o arquivo requirements.txt e instale as dependências
 COPY requirements.txt requirements.txt
 RUN python -m venv venv
 RUN . venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt
 
-# Copia o código do projeto para o contêiner
+# Copie todo o código do projeto para o contêiner
 COPY . .
 
-# Define as variáveis de ambiente
+# Defina as variáveis de ambiente, se necessário
 ENV TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
 
 # Comando para iniciar o bot

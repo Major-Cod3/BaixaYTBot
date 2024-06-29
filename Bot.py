@@ -15,7 +15,7 @@ import re
 from telebot import types
 import os
 
-TOKEN = 'seu_token_aqui'  # Token do bot do Telegram
+TOKEN =  os.getenv("TELEGRAM_TOKEN")  # Token do bot do Telegram
 URL = ''  # Variável global para armazenar a URL do vídeo
 pix_key = "a333a8d1-4978-4bb0-950b-e553ca6e1761"  # Chave PIX para doações
 bot = telebot.TeleBot(TOKEN, parse_mode='Markdown')  # Inicializa o bot com o token e define o modo de parseamento

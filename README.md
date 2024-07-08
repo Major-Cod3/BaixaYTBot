@@ -21,7 +21,7 @@ Para usar o bot, compartilhe o link do vídeo do YouTube que deseja baixar no ch
 
 - **Ricardo**
 - GitHub: [https://github.com/Ricardo184](https://github.com/Ricardo184)
-- Email: ricardodejesusbarbosa4@gmail.com
+- Email: mailto:ricardo.major.j@gmail.com
 - Instagram: [https://www.instagram.com/ricardo_tx_](https://www.instagram.com/ricardo_tx_)
 - Chave PIX para Doações: `a333a8d1-4978-4bb0-950b-e553ca6e1761`
 

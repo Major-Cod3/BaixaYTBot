@@ -15,16 +15,14 @@ Para usar o bot, compartilhe o link do vídeo do YouTube que deseja baixar no ch
 
 - `/start`: Inicia o bot e fornece instruções básicas de uso.
 - `/autor`: Mostra informações sobre o autor do bot.
-- `/donate`: Mostra como fazer uma doação para apoiar o desenvolvimento do bot.
-
+- 
 ## Autor
 
 - **Ricardo**
 - GitHub: [https://github.com/Ricardo184](https://github.com/Ricardo184)
 - Email: ricardo.major.j@gmail.com
 - Instagram: [https://www.instagram.com/ricardo_tx_](https://www.instagram.com/ricardo_tx_)
-- Chave PIX para Doações: `a333a8d1-4978-4bb0-950b-e553ca6e1761`
-
+- 
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
